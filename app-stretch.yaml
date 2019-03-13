@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: example-stretch
-        image: vandelay/app:strech
+        image: vandelay/app:stretch
         command: ["sh", "/app/reader.sh"]
         resources:
           requests:
