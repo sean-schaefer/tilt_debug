@@ -1,4 +1,5 @@
 FROM golang:1.10
 
 RUN mkdir /usr/src/common
-RUN touch /usr/src/common/hello
+
+RUN echo 'Hello from regular' >> /usr/src/common/regular

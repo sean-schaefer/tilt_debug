@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example
+  name: example-stretch
   labels:
-    app: example
+    app: example-stretch
 spec:
   selector:
     matchLabels:
-      app: example
+      app: example-stretch
   template:
     metadata:
       labels:
-        app: example
+        app: example-stretch
     spec:
       containers:
-      - name: example
+      - name: example-stretch
         image: vandelay/app:strech
         command: ["sh", "/app/reader.sh"]
         resources:

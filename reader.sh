@@ -1,3 +1,3 @@
 #!/bin/sh
-cat /usr/src/common/hello
+cat /app/message
 sleep infinity
