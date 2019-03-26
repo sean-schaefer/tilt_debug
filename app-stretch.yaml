@@ -16,7 +16,7 @@ spec:
       containers:
       - name: example-stretch
         image: vandelay/app:stretch
-        command: ["sh", "/app/reader.sh"]
+        command: ["node", "src/index.js"]
         resources:
           requests:
             cpu: "10m"

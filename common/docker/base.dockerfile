@@ -1,0 +1,5 @@
+FROM node:8.15-alpine
+
+ARG NODE_ENV=development
+ENV NODE_ENV ${NODE_ENV}
+ENV PORT 80

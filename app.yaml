@@ -16,7 +16,7 @@ spec:
       containers:
       - name: example
         image: vandelay/app
-        command: ["sh", "/app/reader.sh"]
+        command: ["node", "src/index.js"]
         resources:
           requests:
             cpu: "10m"
